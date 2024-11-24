@@ -20,3 +20,4 @@
         apt-get install iputils-ping -y && \
         rm -rf /var/lib/apt/lists/*
    ```
+![Снимок экрана 2024-11-24 144001](https://github.com/user-attachments/assets/a23ab924-d946-4130-893d-ddeb1ef2a2ef)
