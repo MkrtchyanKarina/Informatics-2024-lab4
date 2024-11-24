@@ -8,9 +8,11 @@
    ```
 
 3. Создадим Dockerfile и зайдем в редактор
-   ``` touch Dockerfile && nano Dockerfile ```
+   ```
+   touch Dockerfile && nano Dockerfile
+   ```
    
-4. В файле напишем следующий скрипт:
+5. В файле напишем следующий скрипт:
    ``` bash
     FROM ubuntu:latest
     RUN apt-get update && \
