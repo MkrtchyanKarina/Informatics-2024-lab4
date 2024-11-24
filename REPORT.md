@@ -43,5 +43,13 @@
    ```
 10. В третьем окне терминала - переключимся с помощью сочетания клавиш Ctrl+Alt+F3 - с помощью  команды ```docker ps``` выведем запущенные контенеры
     ![Снимок экрана 2024-11-24 144533](https://github.com/user-attachments/assets/6d424582-40eb-4af0-8e51-1d4852a69eec)
+11. Затем создадим сеть и подключим оба контенера к ней
+    ```
+    docker network create myNet
+    docker network connect myNet flamboyant_gould
+    docker network connect myNet silly_dijkstra
+    ```
+13. Выведем информацию о сети при помощи команды ```docker network inspect myNet```
+    ![Снимок экрана 2024-11-24 144801](https://github.com/user-attachments/assets/6be31851-6ff3-4bff-bfce-db1f83a03c86)
 
    
