@@ -3,7 +3,8 @@
   Приложение “aafire”
   
 1. Создадим директорию лабораторной и перейдем в неё
-  mkdir lab4 && cd lab4
+ ``` mkdir lab4 && cd lab4
+ ```
 
 2. Создадим Dockerfile и зайдем в редактор
    touch Dockerfile && nano Dockerfile
