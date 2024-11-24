@@ -29,4 +29,18 @@
    ```
    ![Снимок экрана 2024-11-24 144229](https://github.com/user-attachments/assets/f01eb8c0-c11b-4d20-97dd-e828b440293e)
 
+6. Ведем команду aafire и запустим приложение
+   ![Снимок экрана 2024-11-24 144433](https://github.com/user-attachments/assets/6b49a50f-c87d-477f-b72b-fe60585dc9ae)
+
+7. Получим такой результат
+   ![Снимок экрана 2024-11-24 144445](https://github.com/user-attachments/assets/72bec1eb-b760-4d29-94ae-1e20a9f23bbd)
+
+8. Во втором окне терминала - переключимся с помощью сочетания клавиш Ctrl+Alt+F2 - выполним предыдущие команды и запустим приложение
+   ```
+   docker build -t libaa-bin .
+   aafire
+   ```
+9. В третьем окне терминала - переключимся с помощью сочетания клавиш Ctrl+Alt+F3 - с помощью  команды ```docker ps``` выведем запущенные контенеры
+    ![Снимок экрана 2024-11-24 144533](https://github.com/user-attachments/assets/6d424582-40eb-4af0-8e51-1d4852a69eec)
+
    
